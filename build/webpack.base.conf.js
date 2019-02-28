@@ -54,7 +54,16 @@ module.exports = { //基本配置
                                     ]
                                 }
                             },
-                            {  loader: "less-loader" }
+                            {  loader: "less-loader" ,
+                                options:{
+                                    javascriptEnabled: true,
+                                    modifyVars: {
+                                         'primary-color': '#0AA679',
+                                         'link-color': '#1DA57A',
+                                         'border-radius-base': '2px',                                       
+                                       },                                      
+                                }
+                            }
                         ]
                 },
                 {

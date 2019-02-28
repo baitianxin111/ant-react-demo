@@ -9,8 +9,8 @@ class App extends Component{
     render() {
         return(
         <div>
-            <Home></Home>
-           <h1 className="sss">hello, world，就想测试实时a!</h1>,
+          <Home /> 
+           {/* <h1 className="sss">hello, world，就想测试实时a!</h1>, */}
         </div>
         );
     }

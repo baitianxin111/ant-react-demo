@@ -1,6 +1,17 @@
 .sss{
     color: orange;
  }
+.testthoeme{
+  background: orange;
+}
+.ant-layout-sider-trigger{
+  background: '#BEA37A1' !important;
+}
+ #components-layout-demo-side .logo {
+  height: 32px;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+}
  #components-layout-demo-custom-trigger .trigger {
     font-size: 18px;
     line-height: 64px;

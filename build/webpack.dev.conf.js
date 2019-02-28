@@ -26,6 +26,7 @@ module.exports = merge(baseWebpackConfig,{
         contentBase:path.join(__dirname,'../public'),
         compress:true,
         historyApiFallback:true,
+        // autoOpenBrowser:false,//不要自动打开浏览器
         hot:true,
         https:false,
         noInfo:true,
