@@ -8,7 +8,7 @@ class Setting extends Component{
     }
     render (){
         return(<div>
-            设置内容
+            设置的设置什么内容
         </div>)
     }
 }
