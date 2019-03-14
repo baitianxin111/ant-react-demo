@@ -13,7 +13,9 @@ class Personal extends Component{
     constructor(props){
         super(props);
 //在试一下这个redux的例子，不行，就看gulp文件批量处理了，然后是基本的原理
-       this.componentDidMount = () =>{
+// 在redux中的官方文档上看的文档解析地址：https://github.com/reduxjs/redux/blob/master/docs/basics/Actions.md
+// 南山问题没有问题后，明天看gulp的文档资料
+this.componentDidMount = () =>{
            setTimeout(() => {
                store.dispatch({
                    type:'child_2',
